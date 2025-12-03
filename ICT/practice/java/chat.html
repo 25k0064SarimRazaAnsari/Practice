@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+
+<h2>Form Example</h2>
+
+<form id="myForm">
+    <!-- Text Field -->
+    Name: <input type="text" id="name"><br><br>
+
+    <!-- Email Field -->
+    Email: <input type="email" id="email"><br><br>
+
+    <!-- Password Field -->
+    Password: <input type="password" id="password"><br><br>
+
+    <!-- Radio Buttons -->
+    Gender:
+    <input type="radio" id="male" name="gender" value="Male"> Male
+    <input type="radio" id="female" name="gender" value="Female"> Female<br><br>
+
+    <!-- Checkboxes -->
+    Hobbies:
+    <input type="checkbox" id="reading" value="Reading"> Reading
+    <input type="checkbox" id="sports" value="Sports"> Sports
+    <input type="checkbox" id="music" value="Music"> Music<br><br>
+
+    <button type="button" onclick="getFormData()">Submit</button>
+</form>
+
+<script src="chat.js"></script>
+</body>
+</html>

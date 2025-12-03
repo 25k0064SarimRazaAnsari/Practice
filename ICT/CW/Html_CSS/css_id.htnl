@@ -1,0 +1,9 @@
+<div id="target-box">
+  <p>This box uses the element with the #my-background ID as its background!</p>
+</div>
+
+<div id="background-container">
+  <div id="my-background">
+    <p>This text is part of the background. Cool, huh?</p>
+  </div>
+</div>

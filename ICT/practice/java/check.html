@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="radio" name="gender" id="male" value="Male"> Male
+    <input type="radio" name="gender" id="female" value="Female"> Female
+    <button onclick="gender()">LOL</button>
+
+    <input type="checkbox" id="hobby1" value="Reading"> Reading
+    <input type="checkbox" id="hobby2" value="Gaming"> Gaming
+
+    <button onclick="getHobbies()">LOL</button>
+
+
+    <script>
+        function gender(){
+            let name=document.querySelector('input[name="gender"]:checked').value
+            alert(name);
+        }
+
+
+    
+
+    </script>
+</body>
+</html>
+
+
+
+

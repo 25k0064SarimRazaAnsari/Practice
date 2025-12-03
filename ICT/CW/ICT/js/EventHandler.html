@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Events Example</title>
+  <script src="EventHandler.js"></script>
+</head>
+<body onload="pageLoaded()">
+
+  <h2>JavaScript Event Examples</h2>
+
+  <!-- onchange -->
+  <label>Enter your name:</label>
+  <input type="text" id="nameBox" onchange="nameChanged()">
+  <br><br>
+
+  <!-- onclick -->
+  <button id="button">Click Me</button>
+  <br><br>
+
+  <!-- onmouseover & onmouseout -->
+  <p id="hoverPara" 
+     onmouseover="mouseOver()" 
+     onmouseout="mouseOut()">
+     Move your mouse over this text.
+  </p>
+
+  <!-- onkeydown -->
+  <input type="text" id="keyBox" placeholder="Type something..." onkeydown="keyPressed()">
+
+</body>
+</html>

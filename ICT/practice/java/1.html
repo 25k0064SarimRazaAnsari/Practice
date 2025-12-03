@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <p id="result"></p>
+
+    
+    <input type="text" id="text">
+    <button onclick="show()">Subbmit</button>
+    <p id="click"></p>
+    <script>
+        document.getElementById("result").innerHTML="LOl asrim";
+        // alert("LOO");
+
+       function show(){
+        let name = document.getElementById("text").value;
+        document.getElementById("click").innerHTML="Hello   " + name;
+        }
+    </script>
+</body>
+</html>

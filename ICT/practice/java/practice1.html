@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    name        <input type="name" placeholder="Enter name" id="name"> <br> <br>
+    password    <input type="password" id="pass">
+    <button onclick="show()">Submit</button> <br><br>
+    <p id="result"></p>
+
+    <script>
+        function show(){
+            let name= document.getElementById("name").value;
+            let pass=document.getElementById("pass").value;
+            document.getElementById("result").style.color="red"
+            if(name=="sarim"){
+                if(pass==1234){
+                    document.getElementById("result").innerHTML="Successfully login";
+                }
+                else document.getElementById("result").innerHTML="Wrong pass";
+            }
+            else document.getElementById("result").innerHTML="Wrong name"
+        }
+    </script>
+</body>
+</html>

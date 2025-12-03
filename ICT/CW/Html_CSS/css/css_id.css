@@ -1,0 +1,13 @@
+/* ID selector example */
+#heading {
+  color: darkblue;
+  text-align: center;
+}
+
+#special {
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border-radius: 5px;
+}
+

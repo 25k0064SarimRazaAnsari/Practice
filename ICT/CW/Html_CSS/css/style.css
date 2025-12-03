@@ -1,0 +1,43 @@
+/* input {
+    background-color: rgb(42, 178, 196);
+    border: 2px solid black;
+    padding: 5px;
+}
+input[type="submit"] {
+    background-color: rgb(226, 30, 167);
+    border: none;
+} */
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.upper, .lower {
+    display: flex;
+    flex: 1;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Different colors for each box */
+.python { background-color: #c5bb8a; }
+.java { background-color: #dcd7b7; }
+.cpp { background-color: #e4b5b5; }
+.r { background-color: #d38a8a; }

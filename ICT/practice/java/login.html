@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            margin-right: 100px;
+            align-items: center;
+            height: 100vh;
+            background-color: gray;
+        }
+        div{
+            border: 2px solid black;
+            padding: 10px;
+            box-shadow: 0px 0px 5px;
+            background-color: aqua;
+        }
+        input{
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px;
+        }
+    </style>
+</head>
+
+<body>
+        <div>
+        <h1 style="text-align: center;">Login</h1>
+        <pre style="font-family: Arial, Helvetica, sans-serif;">
+        name        <input type="email" placeholder="Email adress" id="user"> <br> <br>
+        password  <input type="password" placeholder="password" id="pass"> <br>
+        <button onclick="start()">Login</button>
+        <hr>
+
+        <p id="result"></p> <br>
+        <button onclick="screen2()">SignUp</button>
+        </pre>
+        </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

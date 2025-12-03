@@ -1,0 +1,54 @@
+There are 4 Pillars of OOP
+
+1) Encapsulation
+
+2) Abstraction
+
+3) Inheritance
+
+4) Polymorphism
+
+
+==================================
+✅ 1. Encapsulation
+
+Wrapping data + functions together in a class and controlling access.
+
+✔ Protects data
+✔ Use private, public, protected
+✔ Example: getters/setters
+
+
+==================================
+✅ 2. Abstraction
+
+Hiding unnecessary details and showing only important features.
+
+✔ User sees what it does
+✔ Hides how it works
+✔ Example: ATM machine, or class with hidden private data
+
+==================================
+
+
+✅ 3. Inheritance
+
+A class can inherit properties and behavior from another class.
+
+✔ Code reuse
+✔ Parent → Child
+✔ Example:
+Animal → Dog, Cat
+
+==================================
+
+✅ 4. Polymorphism
+
+One name, many forms
+
+✔ Same function behaves differently
+✔ Achieved by:
+
+Function Overloading (compile-time)
+
+Function Overriding (runtime via virtual)

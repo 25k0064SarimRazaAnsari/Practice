@@ -1,0 +1,21 @@
+nav{
+    background-color: aqua;
+    padding: 2px;
+    border: 2px aqua solid;
+    border-radius: 5px;
+}
+
+nav div ul{
+    display: flex;
+    gap: 50px;
+    /* margin: 0 750px; */
+    justify-content: center;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    font-size: larger;
+}
+li:hover{
+    color: aliceblue;
+}

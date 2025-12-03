@@ -1,0 +1,13 @@
+// getelementbyid
+// alert
+// event handeler onclick
+
+
+<input type="checkbox" value="apple">apple <br>
+
+
+display: flex;
+    justify content: centre //horizontal
+    align item: centre //verticle + height
+    gap: 
+    flex direction: row/coloumn

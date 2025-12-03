@@ -1,0 +1,7 @@
+/* Class selector example */
+.highlight {
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border-radius: 5px;
+}

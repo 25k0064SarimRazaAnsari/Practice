@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <style>
+        input{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <div style="border: 2px solid black; padding: 100px 10px; ">
+        <h1>Create new account</h1>
+        <input type="text" placeholder="First name" id="fname">
+        <input type="text" placeholder=" Surname" id="sname"><br><br>
+        <label>Date of birth</label>
+        <input type="date" > <br><br>
+        <label for="">Gender</label>
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="male">male <br><br>
+        <input type="email" placeholder="Email" id="semail"> 
+        <input type="password" placeholder="pass" id="spass"><br><br> <br>
+        <button style="padding: 10px 200px;">Signup</button><br><br><br>
+        <button onclick="screen1()">login</button>
+    </div>
+    <script src="login.js"></script>
+
+</body>
+</html>
