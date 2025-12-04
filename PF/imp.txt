@@ -1,0 +1,4 @@
+Structure + string (function)
+Recursion + pointer + function
+2D array, string , integer, function
+DMA
