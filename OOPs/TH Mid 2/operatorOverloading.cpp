@@ -32,6 +32,32 @@ class Rupee{
         return *this;
     } 
 
+    //increament prefix ++c
+    Rupee operator++(){
+        ++data;
+        return *this;
+    }
+    //decreament prefix --c
+    Rupee operator--(){
+        --data;
+        return *this;
+    }
+
+    //increament postfix c++
+    Rupee operator++(int){
+        Rupee temp=*this;
+        data++;
+        return temp;
+    }
+
+    //deccreament postfix c--
+    Rupee operator--(int){
+        Rupee temp=*this;
+        data--;
+        return temp;
+    }
+
+
     //now for cout-> it can perform cout<<obj(of Rupee Class) instead of cout<<obj.data
 
     friend ostream& operator<<(ostream& os, Rupee &obj){ //friend to access Rupee 
@@ -64,5 +90,19 @@ int main(){
     
     Profit=-Profit; //urinary
     cout<<"Profit: "<<Profit<<endl;
+
+    Profit++;
+    cout<<"Profit post inc: "<<Profit<<endl;
+
+    ++Profit;
+    cout<<"Profit pre inc: "<<Profit<<endl;
+
+    Profit--;
+    cout<<"Profit post dec: "<<Profit<<endl;
+
+    --Profit;
+    cout<<"Profit pre dec: "<<Profit<<endl;
+
+
 
 }
