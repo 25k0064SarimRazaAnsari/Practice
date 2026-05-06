@@ -8,15 +8,15 @@ class Shape{
     public:
     Shape(string c):color(c){};
     
-    // virtual double area()=0; //pure virtual
-    // virtual double perimeter()=0; //pure virtual
+    virtual double area()=0; //pure virtual
+    virtual double perimeter()=0; //pure virtual
     //(OR)
-    virtual double area(){
-        return 0;
-    }
-    virtual double perimeter(){
-        return 0;
-    }
+    // virtual double area(){
+    //     return 0;
+    // }
+    // virtual double perimeter(){
+    //     return 0;
+    // }
 
     virtual void show(){
         cout<<"Color: "<<color<<endl;
@@ -24,7 +24,7 @@ class Shape{
         cout<<"Perimeter: "<<perimeter()<<endl;
     }
 
-    // virtual ~Shape(){};
+    virtual ~Shape(){};
 };
 
 class Circle:public Shape{

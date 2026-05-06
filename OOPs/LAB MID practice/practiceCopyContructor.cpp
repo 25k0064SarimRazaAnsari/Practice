@@ -79,5 +79,4 @@ int main(){
     d2.change(9);
     d1.display();
     d2.display();
-
 }
